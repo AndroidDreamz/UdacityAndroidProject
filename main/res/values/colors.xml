@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="blackColor">#050505</color>
+    <color name="whiteFontColor">#d7d9ce</color>
+    <color name="toolbarColorDark">#00866A</color>
+
+
+    <color name="lightCardBack">#34aca0</color>
+    <color name="darkCardBack">#028b7b</color>7beeef
+    <color name="cardFontColor">#E0E0E0</color>
+</resources>

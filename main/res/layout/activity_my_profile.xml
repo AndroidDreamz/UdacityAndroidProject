@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/blackColor"
+    android:orientation="vertical"
+    tools:context="org.ksconnect.udacityandroidproject.MyProfileActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/vishal"
+        android:scaleType="fitXY"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_background"
+        android:paddingLeft="@dimen/margin_10dp"
+        android:paddingTop="@dimen/margin_20dp"
+        android:paddingBottom="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_10dp">
+
+        <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+            app:typeface="Quicksand-Medium.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_myName"
+            android:text="@string/vishal_tadha"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-light"
+            android:includeFontPadding="false"
+            android:textSize="40sp"/>
+
+        <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+            app:typeface="Quicksand-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_userName"
+            android:text="@string/androiddreamz"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/txt_myName"
+            android:includeFontPadding="false"
+
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize_recSmall"/>
+
+        <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+            app:typeface="Quicksand-Medium.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/android_developer"
+            android:layout_below="@id/txt_userName"
+            android:textColor="@color/blackColor"
+            android:textSize="@dimen/textSize_recMedium"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:paddingTop="@dimen/margin_20dp"
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingBottom="@dimen/margin_15dp"
+            android:background="#2e2e2e"
+            android:layout_weight="1">
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Regular.ttf"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_projectsLabel"
+                android:text="@string/projects"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/whiteFontColor"
+                android:textSize="@dimen/textSize_recMedium"/>
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Bold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txt_projectsLabel"
+                android:text="@string/_11"
+                android:textColor="@color/whiteFontColor"
+                android:textSize="40sp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:paddingTop="@dimen/margin_20dp"
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingBottom="@dimen/margin_15dp"
+            android:background="#2e2e2e"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1">
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_applicationLabel"
+                android:text="@string/applications"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/whiteFontColor"
+                android:textSize="15sp"/>
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Bold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txt_applicationLabel"
+                android:text="@string/_05"
+                android:textColor="@color/whiteFontColor"
+                android:textSize="40sp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:paddingTop="@dimen/margin_20dp"
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingBottom="@dimen/margin_15dp"
+            android:background="#2e2e2e"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1">
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_clientsLabel"
+                android:text="@string/clients"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/whiteFontColor"
+                android:fontFamily="sans-serif-light"
+                android:textSize="15sp"/>
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Bold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/txt_clientsLabel"
+                android:text="@string/_14"
+                android:textColor="@color/whiteFontColor"
+                android:textSize="40sp"/>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedButton
+        app:typeface="Quicksand-Bold.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_55dp"
+        android:textSize="@dimen/textSize_recMedium"
+        android:text="@string/order_dev"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:theme="@style/AppTheme.Button"/>
+
+
+</LinearLayout>

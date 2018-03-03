@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/margin_30dp"
+    android:paddingLeft="@dimen/margin_30dp"
+    android:paddingRight="@dimen/margin_30dp"
+    android:paddingBottom="@dimen/margin_30dp"
+    android:orientation="vertical"
+    android:background="@color/lightCardBack"
+    tools:context="org.ksconnect.udacityandroidproject.UdacityInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:background="@color/darkCardBack">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/margin_20dp"
+                android:layout_height="@dimen/margin_20dp"
+                android:src="@drawable/courses"/>
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Medium.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5k"
+                android:textSize="@dimen/textSize_recSmall"
+                android:textColor="@color/whiteFontColor"/>
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Medium.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/courses"
+                android:textSize="@dimen/textSize_recVSmall"
+                android:textColor="@color/whiteFontColor"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/udacity" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/margin_20dp"
+                android:layout_height="@dimen/margin_20dp"
+                android:src="@drawable/courses1" />
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Medium.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_2b"
+                android:textSize="@dimen/textSize_recSmall"
+                android:textColor="@color/whiteFontColor"/>
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Medium.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/students"
+                android:textSize="@dimen/textSize_recVSmall"
+                android:textColor="@color/whiteFontColor"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+        app:typeface="Quicksand-Bold.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:text="@string/contact_us"
+        android:textColor="@color/cardFontColor"
+        android:textSize="@dimen/textSize_recXLarge"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1dp"
+        android:layout_marginTop="@dimen/margin_3dp"
+        android:background="#00897B"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+            app:typeface="Quicksand-Medium.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_30dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:text="@string/udacity"
+            android:textColor="@color/cardFontColor"
+            android:textSize="@dimen/textSize_recLarge"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_20dp"
+                android:layout_height="@dimen/margin_20dp"
+                android:src="@drawable/location"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:orientation="vertical">
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                    app:typeface="Quicksand-Medium.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/addressLine1"
+                    android:textColor="@color/cardFontColor"
+                    android:textSize="@dimen/textSize_recLarge"/>
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                    app:typeface="Quicksand-Medium.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/addressLine2"
+                    android:textColor="@color/cardFontColor"
+                    android:textSize="@dimen/textSize_recLarge"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_20dp"
+                android:layout_height="@dimen/margin_20dp"
+                android:src="@drawable/phone"/>
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Quicksand-Medium.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/phoneNo"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:textColor="@color/cardFontColor"
+                android:textSize="@dimen/textSize_recMedium"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+        app:typeface="Quicksand-Bold.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/get_it_on"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/cardFontColor"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="7dp"
+            android:layout_weight="1"
+            android:src="@drawable/ios" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="7dp"
+            android:layout_weight="1"
+            android:src="@drawable/android" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="7dp"
+            android:layout_weight="1"
+            android:src="@drawable/windows" />
+
+    </LinearLayout>
+
+
+    <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+        app:typeface="Quicksand-Medium.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/androiddreamz"
+        android:textColor="@color/cardFontColor"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>
