@@ -13,4 +13,13 @@
         <item name="android:textColor">@color/whiteColor</item>
     </style>
 
+    <style name="AppTheme.MaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#f27c21</item>
+        <item name="android:textColor">#fcd837</item>
+    </style>
+
+
+
+
+
 </resources>

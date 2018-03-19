@@ -20,4 +20,9 @@
     <string name="addressLine2">Mountain View, CA 94043</string>
     <string name="phoneNo">650-555-5555</string>
     <string name="get_it_on">Get it on</string>
+    <string name="cricket_dreamz">Cricket Dreamz</string>
+
+    <string name="userWinsMsg">Congratulations !\nYou won the match.</string>
+    <string name="userLooseMsg">Oops !\nBetter luck next time.</string>
+    <string name="matchTieMsg">Ohhh !\nMatch has been drawn.</string>
 </resources>

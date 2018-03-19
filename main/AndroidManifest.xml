@@ -9,11 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BirthdayActivity"></activity>
-        <activity android:name=".MyProfileActivity">
+        <activity android:name=".BirthdayActivity" />
+        <activity android:name=".MyProfileActivity" />
+        <activity android:name=".UdacityInfo" />
+        <activity android:name=".Lesson6">
 
         </activity>
-        <activity android:name=".UdacityInfo">
+        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".CourtCounterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

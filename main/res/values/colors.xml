@@ -12,4 +12,10 @@
     <color name="lightCardBack">#34aca0</color>
     <color name="darkCardBack">#028b7b</color>7beeef
     <color name="cardFontColor">#E0E0E0</color>
+
+    <color name="toolbarColor">#1D2240</color>
+    <color name="cricketBackground">#212950</color>
+    <color name="blueFontColor">#696CA3</color>
+
+    <color name="toolbarColorFont">#BFC3CF</color>
 </resources>
