@@ -36,15 +36,15 @@
                     android:gravity="center_horizontal">
 
                     <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="@dimen/margin_100dp"
+                        android:layout_height="@dimen/margin_100dp"
                         android:padding="@dimen/margin_20dp"
                         android:scaleType="fitXY"
                         android:src="@drawable/indiaflag"/>
 
                     <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="@dimen/margin_100dp"
+                        android:layout_height="@dimen/margin_100dp"
                         android:padding="@dimen/margin_20dp"
                         android:scaleType="fitXY"
                         android:src="@drawable/pakistanflag"/>
@@ -58,7 +58,7 @@
                     android:gravity="center_horizontal"
                     android:textColor="@color/toolbarColorFont"
                     android:textSize="@dimen/textSize_recXLarge"
-                    android:text="India \nv\nPakistan"/>
+                    android:text="@string/india_vs_pakistan"/>
 
                 <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
                     app:typeface="Nunito-Bold.ttf"
@@ -68,14 +68,14 @@
                     android:gravity="center_horizontal"
                     android:textColor="@color/blueFontColor"
                     android:textSize="@dimen/textSize_recMedium"
-                    android:text="Eden Gardens, Kolkata"/>
+                    android:text="@string/match_place"/>
 
                 <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedButton
                     android:layout_width="match_parent"
-                    android:layout_height="55dp"
+                    android:layout_height="@dimen/margin_55dp"
                     android:id="@+id/btn_cricket_first_play"
                     android:theme="@style/AppTheme.Button"
-                    android:text="Play"
+                    android:text="@string/play"
                     android:layout_marginRight="@dimen/margin_50dp"
                     android:layout_marginLeft="@dimen/margin_50dp"
                     android:layout_marginTop="@dimen/margin_30dp"
@@ -101,7 +101,7 @@
                     android:textColor="@color/toolbarColorFont"
                     android:textSize="@dimen/textSize_recLarge"
                     android:layout_marginTop="@dimen/margin_25dp"
-                    android:text="1) Select Your Team"/>
+                    android:text="@string/select_team"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -123,11 +123,11 @@
                             android:gravity="center"
                             android:textColor="@color/whiteColor"
                             android:textSize="@dimen/textSize_recMedium"
-                            android:text="India"/>
+                            android:text="@string/india"/>
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
+                            android:layout_height="@dimen/margin_100dp"
                             android:padding="@dimen/margin_20dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/indiaflag"/>
@@ -143,7 +143,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="100dp"
+                        android:layout_width="@dimen/margin_100dp"
                         android:layout_height="wrap_content"
                         android:id="@+id/layout_cricket_second_teamPakSelect"
                         android:orientation="vertical">
@@ -155,11 +155,11 @@
                             android:gravity="center"
                             android:textColor="@color/whiteColor"
                             android:textSize="@dimen/textSize_recMedium"
-                            android:text="Pakistan"/>
+                            android:text="@string/pakistan"/>
 
                         <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="@dimen/margin_100dp"
+                            android:layout_height="@dimen/margin_100dp"
                             android:padding="@dimen/margin_20dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/pakistanflag"/>
@@ -177,10 +177,10 @@
 
                 <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedButton
                     android:layout_width="match_parent"
-                    android:layout_height="55dp"
+                    android:layout_height="@dimen/margin_55dp"
                     android:theme="@style/AppTheme.Button"
                     android:id="@+id/btn_cricket_second_continue"
-                    android:text="Continue"
+                    android:text="@string/continue_word"
                     android:layout_marginRight="@dimen/margin_50dp"
                     android:layout_marginLeft="@dimen/margin_50dp"
                     android:layout_marginTop="@dimen/margin_30dp"
@@ -206,11 +206,11 @@
                     android:textColor="@color/toolbarColorFont"
                     android:textSize="@dimen/textSize_recLarge"
                     android:layout_marginTop="@dimen/margin_25dp"
-                    android:text="2) Toss"/>
+                    android:text="@string/toss"/>
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/margin_150dp"
+                    android:layout_height="@dimen/margin_150dp"
                     android:layout_marginTop="@dimen/margin_10dp"
                     android:padding="@dimen/margin_5dp"
                     android:layout_gravity="center_horizontal"
@@ -232,7 +232,7 @@
                         android:gravity="center_horizontal"
                         android:textColor="@color/toolbarColorFont"
                         android:textSize="@dimen/textSize_recLarge"
-                        android:text="You have won the toss"/>
+                        android:text="@string/toss_won_msg"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -249,7 +249,7 @@
                             android:layout_marginLeft="@dimen/margin_20dp"
                             android:textColor="@color/toolbarColorFont"
                             android:textSize="@dimen/textSize_recLarge"
-                            android:text="Choose"/>
+                            android:text="@string/choose"/>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -275,11 +275,11 @@
                                 android:layout_marginLeft="@dimen/margin_3dp"
                                 android:textColor="@color/whiteColor"
                                 android:textSize="@dimen/textSize_recLarge"
-                                android:text="Batting"/>
+                                android:text="@string/batting"/>
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:gravity="center_vertical"
                             android:layout_weight="1"
@@ -303,7 +303,7 @@
                                 android:layout_marginLeft="@dimen/margin_3dp"
                                 android:textColor="@color/whiteColor"
                                 android:textSize="@dimen/textSize_recLarge"
-                                android:text="Bowling"/>
+                                android:text="@string/bowling"/>
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -323,7 +323,7 @@
                         android:gravity="center_horizontal"
                         android:textColor="@color/toolbarColorFont"
                         android:textSize="@dimen/textSize_recLarge"
-                        android:text="Opponent won the toss !"/>
+                        android:text="@string/toss_won2"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -339,7 +339,7 @@
                             android:gravity="center_horizontal"
                             android:textColor="@color/toolbarColorFont"
                             android:textSize="@dimen/textSize_recLarge"
-                            android:text="You got a "/>
+                            android:text="@string/you_got_a"/>
 
                         <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
                             app:typeface="Nunito-ExtraBold.ttf"
@@ -349,7 +349,7 @@
                             android:gravity="center_horizontal"
                             android:textColor="@color/whiteColor"
                             android:textSize="@dimen/textSize_recLarge"
-                            android:text="Batting"/>
+                            android:text="@string/batting"/>
 
                         <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
                             app:typeface="Nunito-ExtraBold.ttf"
@@ -358,7 +358,7 @@
                             android:gravity="center_horizontal"
                             android:textColor="@color/whiteColor"
                             android:textSize="@dimen/textSize_recLarge"
-                            android:text=" first."/>
+                            android:text="@string/first"/>
                     </LinearLayout>
 
 
@@ -368,7 +368,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:theme="@style/AppTheme.Button"
-                    android:text="Continue"
+                    android:text="@string/continue_word"
                     android:id="@+id/btn_cricket_continue_third"
                     android:layout_marginRight="@dimen/margin_50dp"
                     android:layout_marginLeft="@dimen/margin_50dp"
@@ -408,7 +408,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="India"
+                                android:text="@string/india"
                                 android:textColor="@color/whiteColor"
                                 android:textSize="@dimen/textSize_recSmall"
                                 app:typeface="Nunito-Regular.ttf" />
@@ -440,7 +440,7 @@
                             android:gravity="center"
                             android:textColor="@color/whiteColor"
                             android:textSize="@dimen/textSize_recMedium"
-                            android:text="vs"/>
+                            android:text="@string/vs"/>
 
 
 
@@ -456,7 +456,7 @@
                                 android:gravity="center"
                                 android:textColor="@color/whiteColor"
                                 android:textSize="@dimen/textSize_recSmall"
-                                android:text="Pakistan"/>
+                                android:text="@string/pakistan"/>
 
                             <ImageView
                                 android:layout_width="@dimen/margin_30dp"
@@ -478,7 +478,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="90dp"
+                        android:layout_width="@dimen/margin_90dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:orientation="vertical"
@@ -494,7 +494,7 @@
                             android:textColor="@color/whiteColor"
                             android:layout_alignParentBottom="true"
                             android:textSize="@dimen/textSize_recSmall"
-                            android:text="Scoreboard"/>
+                            android:text="@string/scoreboard"/>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -505,7 +505,7 @@
                                 android:id="@+id/txt_cricket_scoreboard_teamName_forth"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="IND "
+                                android:text="@string/ind"
                                 android:textColor="@color/toolbarColorFont"
                                 android:textSize="@dimen/textSize_recSmall"
                                 app:typeface="Nunito-Regular.ttf" />
@@ -514,7 +514,6 @@
                                 android:id="@+id/txt_cricket_scoreboard_runs_forth"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="145"
                                 android:textColor="@color/toolbarColorFont"
                                 android:textSize="@dimen/textSize_recSmall"
                                 app:typeface="Nunito-Regular.ttf" />
@@ -531,7 +530,6 @@
                                 android:id="@+id/txt_cricket_scoreboard_wickets_forth"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="5"
                                 android:textColor="@color/toolbarColorFont"
                                 android:textSize="@dimen/textSize_recSmall"
                                 app:typeface="Nunito-Regular.ttf" />
@@ -549,7 +547,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/toolbarColorFont"
                                 android:textSize="@dimen/textSize_recSmall"
-                                android:text="Balls : "/>
+                                android:text="@string/balls"/>
 
                             <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
                                 app:typeface="Nunito-Regular.ttf"
@@ -557,8 +555,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txt_cricket_scoreboard_balls_forth"
                                 android:textColor="@color/toolbarColorFont"
-                                android:textSize="@dimen/textSize_recSmall"
-                                android:text="1"/>
+                                android:textSize="@dimen/textSize_recSmall" />
 
                         </LinearLayout>
 
@@ -582,7 +579,7 @@
                             android:textColor="@color/whiteColor"
                             android:layout_alignParentBottom="true"
                             android:textSize="@dimen/textSize_recSmall"
-                            android:text="Statistics"/>
+                            android:text="@string/statistics"/>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -596,7 +593,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/toolbarColorFont"
                                 android:textSize="@dimen/textSize_recSmall"
-                                android:text="R Left : "/>
+                                android:text="@string/r_left"/>
 
                             <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
                                 app:typeface="Nunito-Regular.ttf"
@@ -604,8 +601,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txt_cricket_statistics_runsLeft_forth"
                                 android:textColor="@color/toolbarColorFont"
-                                android:textSize="@dimen/textSize_recSmall"
-                                android:text="25"/>
+                                android:textSize="@dimen/textSize_recSmall" />
 
                         </LinearLayout>
 
@@ -620,7 +616,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/toolbarColorFont"
                                 android:textSize="@dimen/textSize_recSmall"
-                                android:text="W Left : "/>
+                                android:text="@string/w_left"/>
 
                             <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
                                 app:typeface="Nunito-Regular.ttf"
@@ -628,8 +624,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txt_cricket_statistics_wicketsLeft_forth"
                                 android:textColor="@color/toolbarColorFont"
-                                android:textSize="@dimen/textSize_recSmall"
-                                android:text="3"/>
+                                android:textSize="@dimen/textSize_recSmall" />
 
                         </LinearLayout>
 
@@ -644,7 +639,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/toolbarColorFont"
                                 android:textSize="@dimen/textSize_recSmall"
-                                android:text="B Left : "/>
+                                android:text="@string/b_left"/>
 
                             <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
                                 app:typeface="Nunito-Regular.ttf"
@@ -652,8 +647,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txt_cricket_statistics_ballsLeft_forth"
                                 android:textColor="@color/toolbarColorFont"
-                                android:textSize="@dimen/textSize_recSmall"
-                                android:text="11"/>
+                                android:textSize="@dimen/textSize_recSmall" />
 
                         </LinearLayout>
 
@@ -676,7 +670,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/toolbarColorFont"
-                        android:text="Creaze"
+                        android:text="@string/creaze"
                         app:typeface="Nunito-Black.ttf"
                         android:textSize="20sp" />
 
@@ -685,7 +679,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:textColor="@color/toolbarColorFont"
-                        android:text="You are "
+                        android:text="@string/you_are"
                         android:layout_toLeftOf="@id/txt_cricket_userTeamStatus_forth"
                         app:typeface="Nunito-Regular.ttf"
                         android:textSize="@dimen/textSize_recMedium" />
@@ -696,7 +690,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:textColor="@color/whiteColor"
-                        android:text="Bowling"
+                        android:text="@string/bowling"
                         app:typeface="Nunito-Regular.ttf"
                         android:layout_alignParentRight="true"
                         android:textSize="@dimen/textSize_recMedium" />
@@ -709,7 +703,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/toolbarColorFont"
                     android:textSize="@dimen/textSize_recMedium"
-                    android:text="Runs"/>
+                    android:text="@string/runs"/>
 
                 <ScrollView
                     android:layout_width="match_parent"
@@ -853,7 +847,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/btn_cricket_wicket_forth"
                             android:layout_marginTop="@dimen/margin_10dp"
-                            android:text="Wicket"
+                            android:text="@string/wicket"
                             android:layout_gravity="center"
                             android:padding="@dimen/margin_15dp"
                             android:theme="@style/AppTheme.MaterialButton"
@@ -891,7 +885,7 @@
                             android:gravity="center"
                             android:textColor="@color/whiteColor"
                             android:textSize="@dimen/textSize_recMedium"
-                            android:text="India"/>
+                            android:text="@string/india"/>
 
                         <ImageView
                             android:layout_width="match_parent"
@@ -910,7 +904,7 @@
                         android:layout_gravity="bottom"
                         android:textColor="@color/toolbarColorFont"
                         android:textSize="@dimen/textSize_recLarge"
-                        android:text="vs"/>
+                        android:text="@string/vs"/>
 
                     <LinearLayout
                         android:layout_width="100dp"
@@ -972,7 +966,7 @@
                     android:layout_height="55dp"
                     android:id="@+id/btn_cricket_raplay_fifth"
                     android:theme="@style/AppTheme.Button"
-                    android:text="Replay"
+                    android:text="@string/replay"
                     android:layout_marginRight="@dimen/margin_50dp"
                     android:layout_marginLeft="@dimen/margin_50dp"
                     android:layout_marginTop="@dimen/margin_30dp"
@@ -987,12 +981,13 @@
             android:layout_marginTop="@dimen/margin_5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/margin_10dp"
             android:textColor="@color/blueFontColor"
             android:layout_alignParentBottom="true"
             android:textSize="@dimen/textSize_recSmall"
             android:layout_marginBottom="@dimen/margin_10dp"
-            android:text="\u00A9 2018 - AndroidDreamz"/>
+            android:text="@string/u00a9_2018_androiddreamz"/>
     </RelativeLayout>
 
 </LinearLayout>

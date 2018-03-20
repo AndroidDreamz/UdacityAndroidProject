@@ -28,9 +28,13 @@
     <dimen name="margin_55dp">55dp</dimen>
     <dimen name="margin_60dp">60dp</dimen>
     <dimen name="margin_80dp">80dp</dimen>
+    <dimen name="margin_90dp">90dp</dimen>
+    <dimen name="margin_100dp">100dp</dimen>
+    <dimen name="margin_150dp">150dp</dimen>
     <dimen name="textSize_recXLarge">22sp</dimen>
     <dimen name="textSize_recLarge">17sp</dimen>
     <dimen name="textSize_recMedium">14sp</dimen>
     <dimen name="textSize_recSmall">12sp</dimen>
     <dimen name="textSize_recVSmall">8sp</dimen>
+
 </resources>
