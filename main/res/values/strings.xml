@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Udacity Android Project</string>
     <string name="order_dev">Order Development Now</string>
     <string name="projects">Projects</string>
@@ -54,4 +54,21 @@
     <string name="wicket">Wicket</string>
     <string name="replay">Replay</string>
     <string name="u00a9_2018_androiddreamz">© 2018 - AndroidDreamz</string>
+
+    <string name="quizResultMessage">Congratulations! You scored <xliff:g id="points" example="5">%d</xliff:g> points.</string>
+    <string name="exitQuiz">Exit Quiz?</string>
+    <string name="okLabel">Ok</string>
+    <string name="cancelLabel">Cancel</string>
+    <string name="submitText">Submit</string>
+    <string name="selectAnyAnswer">Please select any answer!</string>
+    <string name="nextLabel">Next</string>
+    <string name="quizdreamz">QuizDreamz</string>
+    <string name="live_trivia">Live Trivia</string>
+    <string name="game_show">Game Show</string>
+    <string name="get_started">Get Started</string>
+    <string name="q_no">Q No. </string>
+    <string name="scoreLabel">Score : </string>
+    <string name="question">Question</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
 </resources>

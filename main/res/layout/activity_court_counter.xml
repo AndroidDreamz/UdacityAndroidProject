@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/layout_cricket_one"
                 android:orientation="vertical"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -862,7 +862,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/layout_cricket_five"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:padding="@dimen/margin_10dp"
                 android:orientation="vertical">
 

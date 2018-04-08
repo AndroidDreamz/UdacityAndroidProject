@@ -18,6 +18,11 @@
         <item name="android:textColor">#fcd837</item>
     </style>
 
+    <style name="AppTheme.QuizButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/quizLightTextColor</item>
+        <item name="android:textColor">@color/whiteColor</item>
+    </style>
+
 
 
 

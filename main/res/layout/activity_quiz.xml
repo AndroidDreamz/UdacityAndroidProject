@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/quizBackground">
+
+    <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+        app:typeface="Nunito-ExtraBold.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txt_quizAppName_quizActivity"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:text="@string/quizdreamz"
+        android:textSize="45sp"
+        android:textColor="@color/whiteColor"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_quizAppName_quizActivity"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:id="@+id/layout_layoutOne_quizActivity"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon"/>
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Nunito-ExtraBold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:text="@string/live_trivia"
+                android:textSize="@dimen/textSize_recMedium"
+                android:textColor="@color/quizLightTextColor"/>
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                app:typeface="Nunito-ExtraBold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/game_show"
+                android:textSize="@dimen/textSize_recMedium"
+                android:textColor="@color/quizLightTextColor"/>
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedButton
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_55dp"
+                android:id="@+id/btn_getStarted_quizActivity"
+                android:theme="@style/AppTheme.QuizButton"
+                android:text="@string/get_started"
+                android:layout_marginRight="@dimen/margin_50dp"
+                android:layout_marginLeft="@dimen/margin_50dp"
+                android:layout_marginTop="@dimen/margin_30dp"
+                android:textAllCaps="false"
+                android:textSize="@dimen/textSize_recLarge"
+                app:typeface="Nunito-Bold.ttf" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_layoutTwo_quizActivity"
+            android:paddingLeft="@dimen/margin_10dp"
+            android:paddingRight="@dimen/margin_10dp"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_10dp"
+                android:visibility="visible"
+                android:id="@+id/layout_quizStatus_quizActivity"
+                android:background="@drawable/round_border_quiz_secondary">
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                    app:typeface="Nunito-ExtraBold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_no"
+                    android:id="@+id/txt_qno_quizActivity"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/textSize_recLarge"
+                    android:textColor="@color/whiteColor"/>
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                    app:typeface="Nunito-ExtraBold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_qnoText_quizActivity"
+                    android:layout_toRightOf="@id/txt_qno_quizActivity"
+                    android:layout_toEndOf="@id/txt_qno_quizActivity"
+                    android:textSize="@dimen/textSize_recLarge"
+                    android:textColor="@color/whiteColor"/>
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                    app:typeface="Nunito-ExtraBold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/txt_scoreText_quizActivity"
+                    android:layout_toStartOf="@id/txt_scoreText_quizActivity"
+                    android:text="@string/scoreLabel"
+                    android:textSize="@dimen/textSize_recLarge"
+                    android:textColor="@color/whiteColor"/>
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                    app:typeface="Nunito-ExtraBold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_scoreText_quizActivity"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/textSize_recLarge"
+                    android:textColor="@color/whiteColor"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_border_quiz_questions"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:orientation="vertical">
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/margin_10dp"
+                    android:gravity="center"
+                    android:text="@string/question"
+                    android:id="@+id/txt_questionText_quizActivity"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="@dimen/textSize_recMedium"
+                    app:typeface="Nunito-Bold.ttf" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_10dp"
+                    android:id="@+id/layout_optionsLayout_quizActivity">
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:orientation="horizontal">
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/margin_55dp"
+                    android:theme="@style/AppTheme.QuizButton"
+                    android:text="@string/quit"
+                    android:id="@+id/btn_quitBtn_quizActivity"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/textSize_recLarge"
+                    app:typeface="Nunito-Bold.ttf" />
+
+                <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/margin_55dp"
+                    android:theme="@style/AppTheme.QuizButton"
+                    android:text="@string/next"
+                    android:id="@+id/btn_nextBtn_quizActivity"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/textSize_recLarge"
+                    app:typeface="Nunito-Bold.ttf" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_layoutThree_quizActivity"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/txt_resultMessage_quizActivity"
+                android:textColor="@color/whiteColor"
+                android:textSize="@dimen/textSize_recMedium"
+                app:typeface="Nunito-ExtraBold.ttf" />
+
+            <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedButton
+                android:layout_width="match_parent"
+                android:layout_marginRight="@dimen/margin_30dp"
+                android:layout_marginLeft="@dimen/margin_30dp"
+                android:layout_marginTop="@dimen/margin_50dp"
+                android:layout_height="@dimen/margin_55dp"
+                android:id="@+id/btn_replayBtn_quizActivity"
+                android:theme="@style/AppTheme.QuizButton"
+                android:text="@string/replay"
+                android:textAllCaps="false"
+                android:textSize="@dimen/textSize_recLarge"
+                app:typeface="Nunito-Bold.ttf" />
+            </LinearLayout>
+    </LinearLayout>
+
+
+
+    <org.ksconnect.udacityandroidproject.TypeFaced.TypefacedTextView
+        app:typeface="Nunito-Bold.ttf"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:textColor="@color/whiteColor"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/textSize_recSmall"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:text="@string/u00a9_2018_androiddreamz"/>
+
+</RelativeLayout>

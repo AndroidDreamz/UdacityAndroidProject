@@ -118,23 +118,23 @@ public class CourtCounterActivity extends AppCompatActivity implements View.OnCl
                 navigateNext();
                 break;
             case R.id.layout_cricket_second_teamIndiaSelect :
-                teamIndiaSelect.setImageDrawable(getResources().getDrawable(R.drawable.radio_checked));
-                teamPakSelect.setImageDrawable(getResources().getDrawable(R.drawable.radio_unchecked));
+                teamIndiaSelect.setImageResource(R.drawable.radio_checked);
+                teamPakSelect.setImageResource(R.drawable.radio_unchecked);
                 teamSelected = 1;
                 break;
             case R.id.layout_cricket_second_teamPakSelect :
-                teamPakSelect.setImageDrawable(getResources().getDrawable(R.drawable.radio_checked));
-                teamIndiaSelect.setImageDrawable(getResources().getDrawable(R.drawable.radio_unchecked));
+                teamPakSelect.setImageResource(R.drawable.radio_checked);
+                teamIndiaSelect.setImageResource(R.drawable.radio_unchecked);
                 teamSelected = 0;
                 break;
             case R.id.layout_cricket_tosswon_statusChoose_batting_third :
-                tossWonBatSelect.setImageDrawable(getResources().getDrawable(R.drawable.radio_checked));
-                tossWonBowlSelect.setImageDrawable(getResources().getDrawable(R.drawable.radio_unchecked));
+                tossWonBatSelect.setImageResource(R.drawable.radio_checked);
+                tossWonBowlSelect.setImageResource(R.drawable.radio_unchecked);
                 userPlayStatus = 1;
                 break;
             case R.id.layout_cricket_tosswon_statusChoose_bowling_third :
-                tossWonBowlSelect.setImageDrawable(getResources().getDrawable(R.drawable.radio_checked));
-                tossWonBatSelect.setImageDrawable(getResources().getDrawable(R.drawable.radio_unchecked));
+                tossWonBowlSelect.setImageResource(R.drawable.radio_checked);
+                tossWonBatSelect.setImageResource(R.drawable.radio_unchecked);
                 userPlayStatus = 0;
                 break;
             case R.id.btn_cricket_score1Run_forth :

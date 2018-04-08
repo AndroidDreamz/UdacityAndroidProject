@@ -18,4 +18,8 @@
     <color name="blueFontColor">#696CA3</color>
 
     <color name="toolbarColorFont">#BFC3CF</color>
+
+    <color name="quizBackground">#1D1B36</color>
+    <color name="quizLightTextColor">#7D45B1</color>
+    <color name="quizSecondaryColor">#FF5722</color>
 </resources>

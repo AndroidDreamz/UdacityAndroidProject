@@ -1,0 +1,89 @@
+[
+	{
+		"question" : "What is an activity in Android?",
+		"type":"radio",
+		"options" : [
+						"Activity performs the actions on the screen",
+						"Manage the Application content",
+						"Screen UI",
+						"None of the above"
+					],
+		"answer" : [1]
+	},
+	{
+		"question" : "How to kill an activity in Android?",
+		"type":"select",
+		"options" : [
+						"finish()",
+						"finishActivity(int requestCode)",
+						"kill()",
+						"None of the Above"
+					],
+		"answer" : [1,2]
+	},
+	{
+		"question" : "What is log message in android?",
+		"type":"radio",
+		"options" : [
+						"Log message is used to debug a program",
+						"Same as printf()",
+						"Same as Toast()",
+						"None of the above"
+					],
+		"answer" : [1]
+	},
+	{
+		"question" : "If you want share the data across the all applications ,you should go for?",
+		"type":"select",
+		"options" : [
+						"Shared Preferences",
+						"Internal Storage",
+						"Content provider",
+						"SQLite Databases"
+					],
+		"answer" : [3]
+	},
+	{
+		"question" : "What is the name of the program that converts Java byte code into Dalvik byte code?",
+		"type":"radio",
+		"options" : [
+						"Android Interpretive Compiler (AIC)",
+						"Dalvik Converter",
+						"Dex compiler",
+						"Mobile Interpretive Compiler (MIC)"
+					],
+		"answer" : [4]
+	},
+	{
+		"question" : "The XML file that contains all the text that your application uses.",
+		"type":"radio",
+		"options" : [
+						"stack.xml",
+						"strings.xml",
+						"string.java",
+						"text.xml"
+					],
+		"answer" : [2]
+	},
+	{
+		"question" : "Dialog classes in android?",
+		"type":"select",
+		"options" : [
+						"AlertDialog",
+						"ProgressDialog",
+						"DatePickerDialog"
+					],
+		"answer" : [1,2,3]
+	},
+	{
+		"question" : "Creating a UI (User Interface) in Android requires careful use of…",
+		"type":"select",
+		"options" : [
+						"Java and SQL",
+						"XML and Java",
+						"XML and C++",
+						"Dream weaver"
+					],
+		"answer" : [2]
+	}
+]
